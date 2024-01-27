@@ -31,3 +31,9 @@ The dataset, comprising 12,330 customer sessions over a year (excluding holidays
 | VisitorType | Type of visitor (new, returning, or other) | Categorizes users based on their visit history |
 | Weekend | Binary indicator of whether the visit occurred on a weekend | Captures potential variations in user behavior on weekends |
 | Revenue | Binary indicator of whether the visitor made a purchase	| Key target variable indicating successful conversion |
+
+<h2>Exploratory Data Analysis (EDA) Overview</h2>
+
+Time-based Trends:
+
+The bar graph below shows the distributions of the months customers are active and inactive on the website. Notably, customers tend to spend more time on the website in May and November. In May, there is a peak in user activity, possibly driven by summer vacation and seasonal shopping. In November, the increased user engagement is likely attributed to holiday shopping. These insights are valuable for tailoring marketing campaigns to align with customer behavior during specific months.
