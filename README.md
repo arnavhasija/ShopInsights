@@ -34,6 +34,23 @@ The dataset, comprising 12,330 customer sessions over a year (excluding holidays
 
 <h2>Exploratory Data Analysis (EDA) Overview</h2>
 
-Time-based Trends:
+The correlation matrix heatmap below provides a visual representation of the relationships between various features in the dataset. 
 
-The bar graph below shows the distributions of the months customers are active and inactive on the website. Notably, customers tend to spend more time on the website in May and November. In May, there is a peak in user activity, possibly driven by summer vacation and seasonal shopping. In November, the increased user engagement is likely attributed to holiday shopping. These insights are valuable for tailoring marketing campaigns to align with customer behavior during specific months.
+<p align="center">
+  <br>
+  <img src="/images/img1.JPG">
+</p>
+
+Each cell in the matrix represents the correlation coefficient between two corresponding features, ranging from -1 (perfect negative correlation) to 1 (perfect positive correlation). The intensity of the color indicates the strength and direction of the correlation. Let's delve into some key insights derived from this visualization.
+
+<b>BounceRate and ExitRates:</b>
+The strong positive correlation (coefficient of 0.91) between BounceRate and ExitRates indicates a close relationship in user behavior. When a visitor bounces from the website (views only a single page) and subsequently exits, it suggests a quick departure without exploring further content. This association highlights the significance of understanding and addressing factors contributing to both bounce and exit behaviors for a more effective user engagement strategy.
+
+<b>ProductRelated and ProductRelated_Duration:</b>
+The substantial correlation (coefficient of 0.86) between the number of ProductRelated pages visited and the corresponding duration spent on these pages implies a deep level of engagement with product-related content. Users who explore a higher number of product-related pages tend to invest more time on the site. This insight underscores the importance of optimizing and enhancing the user experience on product-related pages to maximize engagement and potentially influence purchasing decisions.
+
+<b>Weekend and Revenue:</b>
+The correlation between Weekend and Revenue is very weak, with a coefficient of 0.029. This implies that sessions on weekends have only a marginal impact on the likelihood of revenue generation. While weekends may not strongly influence revenue, other factors such as marketing campaigns or specific promotions during weekends could be explored to boost revenue during these periods. The subtle correlation encourages a nuanced approach when tailoring strategies for weekend engagement.
+
+<b>Revenue and PageValue:</b>
+The moderate positive correlation (coefficient of 0.49) between PageValue and Revenue suggests a noteworthy relationship between the perceived value of a page (as measured by PageValue) and the likelihood of generating revenue. Pages with higher perceived value, whether through informative content or enticing offers, are more likely to contribute to revenue generation. 
