@@ -53,4 +53,16 @@ The substantial correlation (coefficient of 0.86) between the number of ProductR
 The correlation between Weekend and Revenue is very weak, with a coefficient of 0.029. This implies that sessions on weekends have only a marginal impact on the likelihood of revenue generation. While weekends may not strongly influence revenue, other factors such as marketing campaigns or specific promotions during weekends could be explored to boost revenue during these periods. The subtle correlation encourages a nuanced approach when tailoring strategies for weekend engagement.
 
 <b>Revenue and PageValue:</b>
-The moderate positive correlation (coefficient of 0.49) between PageValue and Revenue suggests a noteworthy relationship between the perceived value of a page (as measured by PageValue) and the likelihood of generating revenue. Pages with higher perceived value, whether through informative content or enticing offers, are more likely to contribute to revenue generation. 
+The moderate positive correlation (coefficient of 0.49) between PageValue and Revenue suggests a noteworthy relationship between the perceived value of a page (as measured by PageValue) and the likelihood of generating revenue. Pages with higher perceived value, whether through informative content or enticing offers, are more likely to contribute to revenue generation.
+
+<h3>Feature Importance Analysis</h3>
+
+The feature importance chart shown below was generated from a Random Forest (RF) model and provides insights into which features have the most significant impact on the model's predictive performance. The importance values indicate the relative contribution of each feature to the model's decision-making process.
+
+<p align="center">
+  <br>
+  <img src="/images/img2.JPG">
+</p>
+
+The PageValues feature holds the highest importance value of approximately 0.33. This suggests that the average value of pages visited before a transaction plays a crucial role in predicting revenue. It indicates that pages with higher PageValues tend to contribute more significantly to revenue generation. Next, ProductRelated_Duration and ExitRates, both have importance values around 0.08. ProductRelated_Duration signifies the total time spent by users on product-related pages during their session, indicating that prolonged engagement with product-related content correlates positively with revenue. Conversely, ExitRates represent the percentage of exits from specific pages, indicating potential areas of user dissatisfaction or obstacles that may lead to revenue loss. ProductRelated, BounceRates, and Adminstrative_Duration also contribute to revenue prediction, but with slightly lower importance values. ProductRelated denotes the total number of product-related pages visited, suggesting that the quantity of product interactions influences revenue. BounceRates highlight the significance of user engagement and satisfaction, as higher bounce rates may indicate lower conversion rates and revenue. Adminstrative_Duration measures the time spent on administrative pages, such as account management or checkout processes, underscoring the importance of streamlining these processes to enhance revenue generation. Overall, these insights underscore the multifaceted nature of revenue prediction in e-commerce and emphasize the importance of optimizing user experience, content relevance, and transaction processes to maximize revenue and customer satisfaction.
+
