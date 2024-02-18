@@ -93,3 +93,14 @@ For the predictive model, I chose the GradientBoostingClassifier algorithm due t
 
 Model building is an iterative process, and I continuously refined my approach based on insights gained from evaluation results. I explored alternative modeling techniques, feature engineering strategies, and hyperparameter tuning methods to enhance the model's predictive capabilities and address specific challenges encountered during the process.
 
+<h2>Key Findings</h2>
+
+<b>Model Exploration</b>: Several models, including LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, and GradientBoostingClassifier, were evaluated for predicting revenue generation from online sessions.
+
+<b>Best Performing Model</b>: Among the models explored, Gradient Boosting Classifier emerged as the top performer, achieving the highest F1 score of 0.78. This model demonstrated superior predictive capabilities in capturing the complexities of customer shopping behavior.
+
+<b>Feature Engineering</b>: Various feature engineering techniques were applied, including creating new features based on time differences, ratios, and feature interactions derived from the sequence of visited pages. However, despite these efforts, the F1 score did not significantly improve.
+
+<b>Hyperparameter Tuning</b>: Hyperparameter tuning was conducted using techniques like grid search to identify the optimal combination of hyperparameters for the models. Despite finding the best hyperparameters, the F1 score did not exhibit significant improvement, indicating the robustness of the initial model configurations.
+
+<b>Feature Selection</b>: Employing feature selection techniques proved to be instrumental in enhancing model performance. By removing highly correlated features such as BounceRates and ProductRelated, the model's F1 score improved to 0.8. This highlights the importance of feature selection in mitigating the impact of multicollinearity and improving model interpretability.
