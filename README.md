@@ -83,6 +83,13 @@ The PageValues feature holds the highest importance value of approximately 0.33.
 
 ProductRelated, BounceRates, and Adminstrative_Duration also contribute to revenue prediction, but with slightly lower importance values. ProductRelated denotes the total number of product-related pages visited, suggesting that the quantity of product interactions influences revenue. BounceRates highlight the significance of user engagement and satisfaction, as higher bounce rates may indicate lower conversion rates and revenue. Adminstrative_Duration measures the time spent on administrative pages, such as account management or checkout processes, underscoring the importance of streamlining these processes to enhance revenue generation. Overall, these insights underscore the multifaceted nature of revenue prediction in e-commerce and emphasize the importance of optimizing user experience, content relevance, and transaction processes to maximize revenue and customer satisfaction.
 
+<p align="center">
+  <br>
+  <img src="/images/img4.JPG">
+</p>
+
+The violin plot above illustrates a notable difference in the duration of customer sessions between those who make a purchase and those who do not. Remarkably, individuals who make a purchase tend to spend less time on the website compared to those who do not, suggesting a distinct behavioral pattern. This trend hints at a decisive mindset among purchasing customers, indicating they may have a clear intention or preference beforehand, thus requiring less time for browsing. Conversely, customers who linger longer on the website without making a purchase are likely in the exploration phase, seeking information or considering various options before committing to a purchase. Recognizing this distinction, the company can strategize to facilitate decision-making processes for customers, perhaps by offering incentives or personalized recommendations to encourage conversions and enhance the overall shopping experience.
+
 <h2>Model Development</h2>
 
 Through exploratory data analysis (EDA), I gained an understanding of the dataset's structure, distribution of features, and potential relationships between variables. Next, predictive models were trained to predict if the online sessions resulted in revenue, aiming to uncover insights into customer shopping behavior and revenue generation patterns. Leveraging techniques such as feature selection, hyperparameter tuning, and model evaluation, I built predictive models capable of capturing the complexities of consumer decision-making processes in the e-commerce domain. 
