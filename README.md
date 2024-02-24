@@ -111,3 +111,11 @@ Model building is an iterative process, and I continuously refined my approach b
 <b>Hyperparameter Tuning</b>: Hyperparameter tuning was conducted using techniques like grid search to identify the optimal combination of hyperparameters for the models. Despite finding the best hyperparameters, the F1 score did not exhibit significant improvement, indicating the robustness of the initial model configurations.
 
 <b>Feature Selection</b>: Employing feature selection techniques proved to be instrumental in enhancing model performance. By removing highly correlated features such as BounceRates and ProductRelated, the model's F1 score improved to 0.8. This highlights the importance of feature selection in mitigating the impact of multicollinearity and improving model interpretability.
+
+<h2>Conclusion</h2>
+
+In this project, I explored and predicted customer revenue in online sessions using a GradientBoostingClassifier model. My goal was to gain insights into customer behavior and develop a predictive model to identify sessions likely to result in revenue.
+
+Through extensive exploratory data analysis (EDA), I gained valuable insights into the dataset's characteristics, identifying key features and trends that influence customer behavior. I uncovered seasonal trends, examined the impact of various factors on revenue generation, and explored feature interactions to understand their significance.
+
+Utilizing machine learning techniques, I trained a GradientBoostingClassifier model to predict revenue in online sessions. I experimented with different preprocessing methods, feature engineering techniques, and model-tuning strategies to enhance predictive performance.
