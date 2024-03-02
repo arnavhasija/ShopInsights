@@ -112,6 +112,16 @@ Model building is an iterative process, and I continuously refined my approach b
 
 <b>Feature Selection</b>: Employing feature selection techniques proved to be instrumental in enhancing model performance. By removing highly correlated features such as BounceRates and ProductRelated, the model's F1 score improved to 0.8. This highlights the importance of feature selection in mitigating the impact of multicollinearity and improving model interpretability.
 
+Below are some of the key takeaways from this project.
+
+<b>Model Selection</b>: Choosing the right model architecture is crucial for achieving optimal performance. Gradient Boosting Classifier emerged as the most suitable model for the predictive task, outperforming other algorithms.
+
+<b>Feature Engineering</b>: While feature engineering is essential for capturing relevant information from the dataset, it may not always lead to improvements in model performance. It is important to carefully assess the impact of feature engineering techniques and prioritize those that yield meaningful insights.
+
+<b>Hyperparameter Tuning</b>: Although hyperparameter tuning is essential for fine-tuning model performance, it may not always result in significant improvements. It is important to strike a balance between computational resources and potential gains in model performance during hyperparameter optimization.
+
+<b>Feature Selection</b>: Feature selection plays a crucial role in improving model performance and interpretability, especially in the presence of highly correlated features. Removing redundant or irrelevant features can lead to more robust and efficient models.
+
 <h2>Conclusion</h2>
 
 In this project, I explored and predicted customer revenue in online sessions using a GradientBoostingClassifier model. My goal was to gain insights into customer behavior and develop a predictive model to identify sessions likely to result in revenue.
